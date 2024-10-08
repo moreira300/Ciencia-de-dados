@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+:root{
+    --bg-color: #7695FF;
+    --primary: #FFD7C4;
+    --secundaty-color: #FF9874;
+    --font: font-family: "Sixtyfour Convergence", sans-serif;
+}
+body{
+    background-color: var(--bg-color);
+    color: var(--primary);
+    font-family: var(--font);
+    height: 100vh;
+    margin: 0;
+}
+header{
+    background-color: var(--primary);
+    text-align: center;
+    padding: 1px;
+}
+h1{
+    font-size: 2em;
+    color: var(--bg-color);
+    font-weight: 800;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+nav a{
+    text-decoration: none;
+    color: var(--bg-color);
+    margin: 0 2rem 1rem 0rem;
+    font-size: 1.2rem;
+}
+nav a:hover{
+    text-decoration: underline;
+    transform: scale(0.90);
+    translate: transform 0.1s;
+}
+
+.grafico{
+    margin-top: 3rem ;
+}
+
+.graficos-conteiner{
+    margin: 5rem;
+
+}
+
+.graficos-conteiner__texto{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    border: var(--secundaty-color) solid 2px;
+}
+
+span{
+    font-weight: bold;
+    color: var(--secundaty-color);
+    
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary);
+    color:  var(--bg-color);
+    width: 100%;
+    height: 3rem;
+    margin-top: 2rem;
+}
